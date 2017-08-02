@@ -1,0 +1,183 @@
+/*
+------  COLOURS
+Orange: #ff715b
+Main blue: #0081AF
+Dark blue: #0B4F6C
+Vibrant blue: #00ABE7
+
+Gray-ish blue: #A7BCCD
+Light gray: #bcbcbc
+Dirty white: #fbfbff
+Dirty black: #061821
+ */
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    color: #ff715b;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    background-color: #A7BCCD;
+}
+
+.navbar {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    border: 0;
+    -webkit-transition: background-color linear 200ms;
+    -moz-transition: background-color linear 200ms;
+    -o-transition: background-color linear 200ms;
+    transition: background-color linear 200ms;
+}
+
+.navbar.scrolled-nav {
+    background: none;
+    background-color: #0B4F6C !important;
+    color:#444;
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+
+    -webkit-transition: background-color linear 200ms;
+    -moz-transition: background-color linear 200ms;
+    -o-transition: background-color linear 200ms;
+    transition: background-color linear 200ms;
+}
+
+.navbar > .container {
+    display: block;
+    margin-top: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.navbar-header {
+    height: 3.5em;
+}
+
+.header-logo {
+    max-height: 3em;
+    margin-top: -0.9em;
+    margin-right: 2.5em;
+}
+
+.navbar-item {
+    margin-right: 1.1em;
+}
+
+.navbar a {
+    color: #fbfbff !important;
+}
+
+.navbar a:hover {
+    color: #ff715b !important;
+}
+
+.row {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.light-row {
+    background: #fbfbff;
+    color: #061821;
+    height: 200em;
+}
+
+.dark-row {
+    background: #061821;
+    color: #fbfbff;
+}
+
+#video-thumb {
+    display: block;
+    float: right;
+    width: 70%;
+    margin-right: -26.5%;
+    margin-top: -15%;
+}
+
+#video-play {
+    position:absolute;
+    display: block;
+    float: right;
+    width: 30%;
+    right: -0.5%;
+    margin-top: -2.7%;
+}
+
+#video-play:hover {
+    content:url("../img/play-selected.png");
+    cursor: pointer;
+}
+
+#video-text {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.modal-dialog {
+    width: 80%;
+    top: -5%;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+
+.modal-header, .modal-footer {
+    border: 0;
+}
+
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.index-ref {
+    margin-top:-50px;
+}
