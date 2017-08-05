@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5 {
 
 h1 {
     color: #ff715b;
+    margin-bottom: 35px;
 }
 
 p {
@@ -106,7 +107,12 @@ body {
 }
 
 .dark-row {
-    background: #061821;
+     background: #061821;
+     color: #fbfbff;
+ }
+
+.darkest-row {
+    background: #000;
     color: #fbfbff;
 }
 
@@ -215,4 +221,63 @@ body {
     margin-left: -15px;
     margin-top: -12%;
     bottom: -12.5%;
+}
+
+.footer-paint {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-bottom: -1%;
+}
+
+footer {
+    margin-top: -10%;
+    background-color:#061821;
+    color: #fbfbff;
+    margin: 0;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
+
+.footer-row {
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.copyright {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    min-height:40px;
+    background-color:#000000;
+}
+
+.copyright p {
+    text-align:left;
+    color:#bcbcbc;
+    padding:10px 0;
+    margin-bottom:0px;
+}
+
+.developed-by {
+    font-size: 85%;
+    color: #0B4F6C !important;
+    float: right;
+}
+
+.copyright-link {
+    color: #0B4F6C;
+}
+
+.copyright-link:hover {
+    color: #0081AF;
+    text-decoration: none;
+}
+
+.acks {
+    width: 400px;
+    float: right;
+    margin-top: 20px;
 }
