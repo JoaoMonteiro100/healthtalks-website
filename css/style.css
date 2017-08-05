@@ -264,19 +264,41 @@ footer {
     font-size: 85%;
     color: #0B4F6C !important;
     float: right;
+    margin-top:2px;
 }
 
-.copyright-link {
-    color: #0B4F6C;
+.copyright-link, .copyright-link:visited {
+    color: #0B4F6C !important;
 }
 
-.copyright-link:hover {
-    color: #0081AF;
-    text-decoration: none;
+.copyright-link:hover, .copyright-link:active, .copyright-link:link {
+    color: #0081AF !important;
+    text-decoration: none !important;
 }
 
 .acks {
     width: 400px;
     float: right;
     margin-top: 20px;
+}
+
+.last-row {
+    padding-bottom: 350px;
+    margin-bottom: -250px;
+    padding-top: 50px;
+    margin-top: 45px;
+}
+
+.second-row {
+    padding-bottom: 100px;
+    margin-bottom: -10px;
+}
+
+p > a, p > a:visited {
+    color: #0081AF;
+}
+
+p > a:hover, p > a:active, p > a:link {
+    color: #00ABE7;
+    text-decoration: none;
 }
