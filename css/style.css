@@ -200,15 +200,21 @@ body {
 }
 
 .parallax {
-    background-image: url("../img/parallax.jpg");
     min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../img/parallax.jpg") no-repeat fixed center;
     background-size: cover;
     margin: -15px;
     margin-top: -12%;
     padding: 0;
+}
+
+.parallax-text {
+    padding-top: 14%;
+    padding-left: 5%;
+}
+
+.parallax-text > h2 {
+    color: #fbfbff !important;
 }
 
 .top-paint {
@@ -221,6 +227,25 @@ body {
     margin-left: -15px;
     margin-top: -12%;
     bottom: -12.5%;
+}
+
+.parallax-badge {
+    position: relative;
+    height: 500px;
+}
+
+.google-badge {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25%;
+
+}
+
+.google-badge:hover {
+    content:url("../img/badge-brush.png");
+    cursor: pointer;
 }
 
 .footer-paint {
