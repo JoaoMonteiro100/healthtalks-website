@@ -207,8 +207,20 @@ body {
     display: inline-block;
     background-color: #0081AF;
     color: #fbfbff;
-    padding: 15px;
     border-radius: 100%;
+    width: 58px;
+    height: 58px;
+}
+
+.gif-circle > i {
+    display: inline-block;
+    text-align: center;
+    line-height: 57px;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+    display: inline-block;
+    width: 100%;
 }
 
 .gif-title {
