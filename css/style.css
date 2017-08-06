@@ -199,6 +199,39 @@ body {
     margin-top:-50px;
 }
 
+.gif-encompassing {
+    padding-top: 40px;
+}
+
+.gif-circle {
+    display: inline-block;
+    background-color: #0081AF;
+    color: #fbfbff;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.gif-title {
+    display: inline-block;
+    line-height: 10px;
+    padding-left: 10px;
+    color: #0081AF;
+}
+
+.gif-text {
+    padding-left: 75px;
+    line-height: 130%;
+    margin-top: -3px;
+}
+
+.second-bundle {
+    padding-top: 35px;
+}
+
+.gif-animation {
+    width: 100%;
+}
+
 .parallax {
     min-height: 500px;
     background: url("../img/parallax.jpg") no-repeat fixed center;
