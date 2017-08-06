@@ -277,13 +277,13 @@ footer {
 }
 
 .acks {
-    width: 400px;
+    width: 50%;
     float: right;
     margin-top: 20px;
 }
 
 .last-row {
-    padding-bottom: 350px;
+    padding-bottom: 340px;
     margin-bottom: -250px;
     padding-top: 50px;
     margin-top: 45px;
