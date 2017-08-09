@@ -280,8 +280,7 @@ body {
 .bot-paint {
     width: calc(100% + 30px);
     margin-left: -15px;
-    margin-top: -12%;
-    bottom: -12.5%;
+    margin-top: -11.3%;
 }
 
 .parallax-badge {
