@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5 {
 h1 {
     color: #ff715b;
     margin-bottom: 35px;
+    z-index: 999;
 }
 
 p {
@@ -201,6 +202,7 @@ body {
 
 .gif-encompassing {
     padding-top: 40px;
+    z-index: 1;
 }
 
 .gif-circle {
@@ -242,6 +244,14 @@ body {
 
 .gif-animation {
     width: 100%;
+    z-index: 1;
+}
+
+.bg-gif {
+    position: absolute;
+    margin-top: -760px;
+    margin-left: -415px;
+    z-index: -1;
 }
 
 .parallax {
