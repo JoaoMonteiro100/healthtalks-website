@@ -381,6 +381,10 @@ p > a:hover, p > a:active, p > a:link {
     text-decoration: none;
 }
 
+.nanostima {
+    color: #A7BCCD;
+}
+
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
     visibility: hidden; /* Hidden by default. Visible on click */
