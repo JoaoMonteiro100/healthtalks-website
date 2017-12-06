@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="../favicon.ico">
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto:300,400" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -61,6 +61,9 @@
                     </li>
                     <li>
                         <a href="#vantagens" class="navbar-item">Vantagens</a>
+                    </li>
+                    <li>
+                        <a href="#noticias" class="navbar-item">Notícias</a>
                     </li>
                     <li>
                         <a href="#instalar" class="navbar-item">Instalar</a>
@@ -121,6 +124,10 @@
 
     <!-- Page Content -->
     <div class="container page-content">
+
+        <div class="row light-row index-ref">
+            <img class="main-logo" src="../img/logo.png" />
+        </div>
 
         <div id="detalhes" class="index-ref"></div>
         <div class="row light-row">
@@ -189,8 +196,120 @@
             </div>
         </div>
 
+        <div id="noticias" class="index-ref"></div>
+        <div class="row news-row dark-row">
+            <div class="col-lg-12">
+                <h1 class="text-center text-uppercase">Notícias</h1>
+                <div class="row news-block" id="news-block">
+                    <div class="col-md-3">
+                        <a href="https://www.dn.pt/lusa/interior/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas-8905815.html" target="_blank"><img class="news-icon" id="dn" src="../img/dn-fade.png" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.fraunhofer.pt/en/fraunhofer_portugal/news/news_archive/Fraunhofer_Portugal_Challenge_2017_Winners_Revealed.html" target="_blank"><img class="news-icon" id="fhn" src="../img/fhn-fade.png" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="http://lifestyle.sapo.pt/saude/noticias-saude/artigos/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas" target="_blank"><img class="news-icon" id="sapo" src="../img/sapo-fade.png" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.tsf.pt/lusa/interior/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas-8905816.html" target="_blank"><img class="news-icon" id="tsf" src="../img/tsf-fade.png" /></a>
+                    </div>
+                    <div class="col-lg-12">
+                        <br><br>
+                        <a href="javascript:void(0)" onclick="toggleArticles()"><h4 class="text-center">Mostrar todas<i class="fa fa-caret-down"></i></h4></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row news-articles" id="news-articles">
+                <a target="_blank" href="https://www.dn.pt/lusa/interior/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas-8905815.html">
+                    <div class="news-article">
+                        <h4 class="news-source">Diário de Notícias</h4>
+                        <h2 class="news-title">Investigadores criam aplicação que permite gravar e transcrever consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.fraunhofer.pt/en/fraunhofer_portugal/news/news_archive/Fraunhofer_Portugal_Challenge_2017_Winners_Revealed.html">
+                    <div class="news-article">
+                        <h4 class="news-source">Fraunhofer Portugal AICOS</h4>
+                        <h2 class="news-title">Fraunhofer Portugal Challenge 2017: Winners Revealed</h2>
+                        <p class="news-abstract">The 2017 edition of the Fraunhofer Portugal Challenge, an idea contest promoted by Fraunhofer Portugal AICOS with the objective of motivating and rewarding research of practical utility, ended today. The Closing Event featured a presentation by the finalists, followed by the jury’s assessment and the announcement of the winners.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://lifestyle.sapo.pt/saude/noticias-saude/artigos/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas">
+                    <div class="news-article">
+                        <h4 class="news-source">Sapo Lifestyle</h4>
+                        <h2 class="news-title">Investigadores criam app que grava e transcreve consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.tsf.pt/lusa/interior/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas-8905816.html">
+                    <div class="news-article">
+                        <h4 class="news-source">TSF</h4>
+                        <h2 class="news-title">Investigadores criam aplicação que permite gravar e transcrever consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://saudeonline.pt/2017/11/10/aplicacao-permite-gravar-e-transcrever-consultas-medicas/">
+                    <div class="news-article">
+                        <h4 class="news-source">Saúde Online</h4>
+                        <h2 class="news-title">Aplicação permite gravar e transcrever consultas médicas</h2>
+                        <p class="news-abstract">Investigadores do Porto estão a desenvolver uma aplicação que permite gravar as consultas médicas e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.ojogo.pt/extra/lusa/interior/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas-8905818.html">
+                    <div class="news-article">
+                        <h4 class="news-source">O Jogo</h4>
+                        <h2 class="news-title">Investigadores criam aplicação que permite gravar e transcrever consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://noticias.up.pt/helathtalks-a-aplicacao-que-ajuda-pacientes-a-gerir-a-sua-saude/">
+                    <div class="news-article">
+                        <h4 class="news-source">Notícias UP</h4>
+                        <h2 class="news-title">HealthTalks: a aplicação que ajuda pacientes a gerir a sua saúde</h2>
+                        <p class="news-abstract">Os investigadores do INESC TEC, João Monteiro e Carla Teixeira Lopes, estão a desenvolver uma aplicação móvel que pretende melhorar a comunicação entre profissionais de saúde e pacientes, e ajudar cada paciente a gerir melhor a informação de saúde de que dispõe.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://noticias.up.pt/alumi-da-u-porto-premiados-no-fraunhofer-portugal-challenge/">
+                    <div class="news-article">
+                        <h4 class="news-source">Notícias UP</h4>
+                        <h2 class="news-title">Alumni da U.Porto premiados no Fraunhofer Portugal Challenge</h2>
+                        <p class="news-abstract">Nuno Moniz e João Monteiro, antigos estudantes da Universidade do Porto e atualmente investigadores do INESC TEC, receberam o segundo prémio do concurso Fraunhofer Portugal Challenge 2017, nas categorias de doutoramento e mestrado, respetivamente.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="https://www.noticiasaominuto.com/tech/897077/investigadores-criam-app-que-grava-e-transcreve-consultas-medicas?utm_source=rss-tech&utm_medium=rss&utm_campaign=rssfeed">
+                    <div class="news-article">
+                        <h4 class="news-source">Notícias ao Minuto</h4>
+                        <h2 class="news-title">Investigadores criam app que grava e transcreve consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="http://verportugal.net/vp/pt/112017/Saude/9621/HealthTalks-a-aplicação-que-transcreve-consultas-médicas.htm">
+                    <div class="news-article">
+                        <h4 class="news-source">Ver Portugal</h4>
+                        <h2 class="news-title">HealthTalks, a aplicação que transcreve consultas médicas</h2>
+                        <p class="news-abstract">HealthTalks. É este o nome da aplicação que permite, mediante autorização dos profissionais de saúde, gravar as consultas médicas. A novidade, em desenvolvimento por investigadores do Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência (INESC TEC), permite também transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="http://www.atlasdasaude.pt/publico/content/investigadores-criam-aplicacao-que-permite-gravar-e-transcrever-consultas-medicas">
+                    <div class="news-article">
+                        <h4 class="news-source">Atlas da Saúde</h4>
+                        <h2 class="news-title">Investigadores criam aplicação que permite gravar e transcrever consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a target="_blank" href="http://www.revistaport.com/noticia/6/2754">
+                    <div class="news-article">
+                        <h4 class="news-source">PORT.COM</h4>
+                        <h2 class="news-title">Investigadores criam app que grava e transcreve consultas médicas</h2>
+                        <p class="news-abstract">Uma aplicação que permite gravar as consultas médicas, com autorização do profissional de saúde, e transcrever e armazenar o conteúdo das conversas para que os pacientes tenham acesso à informação, está a ser desenvolvida por investigadores do Porto.</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)" onclick="toggleArticles()"><h4 class="text-center"><i class="fa fa-caret-up"></i>Ocultar</h4></a>
+            </div>
+        </div>
+
         <div id="instalar" class="index-ref"></div>
-        <img class="top-paint" src="../img/top.png" />
+        <img class="top-paint" src="../img/top2.png" />
 
         <div class="parallax">
             <div class="parallax-text col-sm-6">

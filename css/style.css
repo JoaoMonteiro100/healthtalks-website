@@ -431,3 +431,109 @@ p > a:hover, p > a:active, p > a:link {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
 }
+
+.main-logo {
+    display: block;
+    margin: auto;
+    width: 35%;
+    padding-top: 70px;
+}
+
+.news-row {
+    padding-bottom: 70px;
+}
+
+.news-icon {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 70px;
+}
+
+#dn:hover {
+    content:url("../img/dn.png");
+    cursor: pointer;
+}
+
+#fhn {
+    padding-top: 12px;
+    max-width: 80%;
+}
+
+#fhn:hover {
+    content:url("../img/fhn.png");
+    cursor: pointer;
+}
+
+#sapo {
+    max-height: 120px;
+    margin-top: -25px;
+}
+
+#sapo:hover {
+    content:url("../img/sapo.png");
+    cursor: pointer;
+}
+
+#tsf:hover {
+    content:url("../img/tsf.png");
+    cursor: pointer;
+}
+
+.news-block a {
+    color: #fbfbff !important;
+}
+
+.news-block a:hover {
+    color: #ff715b !important;
+    text-decoration: none;
+}
+
+.news-block a:link {
+    text-decoration: none;
+}
+
+.news-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.4em;
+    margin-top: -8px;
+}
+
+.news-articles a {
+    color: #fbfbff;
+}
+
+.news-articles a:hover {
+    text-decoration: none;
+}
+
+.news-articles a:link {
+    text-decoration: none;
+}
+
+.news-source {
+    font-weight: 400;
+    font-size: 110%;
+    color: #ff715b;
+}
+
+.news-abstract {
+    font-weight: 300;
+}
+
+.news-article {
+    margin-bottom: 60px;
+}
+
+.news-articles a:nth-last-of-type(1):hover {
+    color: #ff715b !important;
+    text-decoration: none;
+}
+
+.news-articles a:nth-last-of-type(1):link {
+    text-decoration: none;
+}
+
+#news-articles {
+    display: none;
+}
